@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  transform: scaleY(1.05);
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  color: #575656;
+}
+input {
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2px;
+  font-weight: 100;
+}
+/* В Google Chrome не работают стили для плейсхолдера(только в Safari), даже после использования вендорного префикса для браузеров Safari, Chrome */
+input::-webkit-input-placeholder {
+  padding-left: 15px;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  color: rgb(91, 90, 90);
+}
+button {
+  height: 43px;
+  background: #b81717;
+  color: white;
+  border: none;
+  font-size: 19px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transform: scaleY(1.05);
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container__inner {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.header__title {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0;
+  font-weight: 500;
+  transform: scaleY(1.15);
+}
+.header__title q {
+  quotes: "«" "»";
+}
+.header__img {
+  width: 1050px;
+}
+.main {
+  height: 594px;
+  background-color: rgba(228, 226, 226, 0.879);
+  margin-top: 0;
+}
+.form {
+  width: 446px;
+  margin-left: 295px;
+}
+.form h1 {
+  color: #c91818;
+  margin: 0;
+  padding-top: 36px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+}
+.form__registration {
+  margin-top: 12px;
+  line-height: 18px;
+}
+.form__inner {
+  margin-top: 37px;
+}
+.form__inner input {
+  width: 445px;
+  height: 43px;
+  margin-top: -3px;
+  margin-bottom: 24px;
+  padding: 0;
+}
+.form__button {
+  width: 447px;
+  margin-top: 27px;
+  padding-left: 4px;
+}
+.form__policy {
+  width: 450px;
+  font-size: 14px;
+  letter-spacing: 0;
+  margin-top: 16px;
+}
+.form__policy a {
+  text-align: none;
+  color: #575656;
+}
+select {
+  width: 913px;
+  height: 42px;
+  appearance: none;
+  overflow: hidden;
+  background: url("icon_tick.png") no-repeat right;
+  background-position-x: 884px;
+  background-size: 15px;
+  background-color: rgba(228, 226, 226, 0.879);
+  margin-top: 22px;
+  border: none;
+  border-radius: 0;
+}
+.main__info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 30px;
+  letter-spacing: 0;
+  transform: scaleX(1.15);
+  transform-origin: left;
+}
+.footer {
+  margin-top: 58px;
+  margin-left: 33px;
+}
+.footer h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -0.8px;
+}
+.footer p {
+  margin-top: 11px;
+  letter-spacing: 0.65px;
+}
+.footer input {
+  height: 41px;
+  margin-top: 37px;
+}
+.contacts-form__name {
+  width: 442px;
+  margin-right: 11px;
+}
+.contacts-form__name::placeholder {
+  color: #575656;
+  padding-top: 6px;
+}
+.contacts-form__phone {
+  width: 219px;
+}
+.contacts-form__button {
+  width: 316px;
+  float: right;
+  margin-top: 38px;
+  padding-left: 10px;
+  letter-spacing: 0.3px;
+}
+.contacts-form__checkbox-wrapper {
+  margin-top: 26px;
+  display: flex;
+}
+.contacts-form__checkbox-input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.contacts-form__checkbox-mark {
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2px;
+  width: 15px;
+}
+.contacts-form__checkbox-label {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #575656;
+  margin-left: 10px;
+}
